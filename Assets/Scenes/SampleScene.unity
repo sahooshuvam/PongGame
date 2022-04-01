@@ -939,6 +939,7 @@ MonoBehaviour:
   isPlayer1: 0
   speed: 5
   rb: {fileID: 964189091}
+  startPosition: {x: 0, y: 0, z: 0}
 --- !u!1 &1043222709
 GameObject:
   m_ObjectHideFlags: 0
@@ -1086,6 +1087,7 @@ MonoBehaviour:
   rb: {fileID: 1043222713}
   speed: 2
   score: {fileID: 0}
+  startPosition: {x: 0, y: 0, z: 0}
 --- !u!1 &1095306501
 GameObject:
   m_ObjectHideFlags: 0
@@ -1233,6 +1235,7 @@ MonoBehaviour:
   isPlayer1: 1
   speed: 5
   rb: {fileID: 1095306505}
+  startPosition: {x: 0, y: 0, z: 0}
 --- !u!1 &1224523610
 GameObject:
   m_ObjectHideFlags: 0
@@ -1455,8 +1458,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   score1: 0
   score2: 0
-  score1Text: {fileID: 851668287}
-  score2Text: {fileID: 747374750}
+  score1Text: {fileID: 747374750}
+  score2Text: {fileID: 851668287}
 --- !u!4 &1527895118
 Transform:
   m_ObjectHideFlags: 0
