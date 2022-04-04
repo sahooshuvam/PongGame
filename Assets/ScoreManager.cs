@@ -11,6 +11,8 @@ public class ScoreManager : MonoBehaviour
     public int score2;
     public Text score1Text;
     public Text score2Text;
+    public GameObject Player1WonText;
+    public GameObject Player2WonText;
     PlayerMovement player1;
     PlayerMovement player2;
     BallMovement ball;
@@ -31,6 +33,8 @@ public class ScoreManager : MonoBehaviour
         if (score1 >5)
         {
             restartPanel.SetActive(true);
+            Player1WonText.SetActive(true);
+            
         }
     }
 
@@ -42,6 +46,7 @@ public class ScoreManager : MonoBehaviour
         if (score2 > 5)
         {
             restartPanel.SetActive(true);
+            Player2WonText.SetActive(true);
         }
     }
 
